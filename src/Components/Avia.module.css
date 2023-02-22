@@ -1,0 +1,87 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.glavGlav {
+  text-align: center;
+  border-style: groove;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.glav {
+  display: flex;
+  justify-content: space-between;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+.pict {
+  border: none;
+  width: 50%;
+  height: 25%;
+  background-color: azure;
+  margin: 15px auto;
+}
+
+.pictBut {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-right-style: groove;
+  padding: 0px;
+  width: 30%;
+}
+
+.buttonMode {
+  background-color: #f17909;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 3%;
+  text-decoration: none;
+  font-size: 15px;
+  cursor: pointer;
+  width: 70%;
+  height: 70%;
+}
+
+.glavTwo {
+  width: 68%;
+}
+
+.vrem {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+  height: 50%;
+}
+
+.time {
+  font-size: 30px;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.time1 {
+  font-size: 30px;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+
+.stops {
+  margin: 5px;
+}
+
+.city {
+  display: flex;
+  justify-content: space-between;
+  height: 50%;
+}

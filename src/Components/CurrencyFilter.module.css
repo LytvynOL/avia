@@ -1,0 +1,62 @@
+.Currency {
+  margin: 0px 15px;
+  padding: 10px;
+  height: 6rem;
+}
+
+.Buttons {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.butRub,
+.butUSD,
+.butEUR {
+  font-size: large;
+  width: 70%;
+  height: 70%;
+  color: rgb(12, 157, 241);
+  background-color: rgb(255, 255, 255);
+  border: 1px;
+  border-style: groove;
+  border-radius: 5px;
+  text-align: center;
+  height: 50px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.butRub:hover {
+  background-color: rgb(228, 243, 255);
+  border-color: blue;
+  border: 3px;
+  border-style: groove;
+}
+.butUSD:hover {
+  background-color: rgb(228, 243, 255);
+  border-color: blue;
+  border: 3px;
+  border-style: groove;
+}
+.butEUR:hover {
+  background-color: rgb(228, 243, 255);
+  border-color: blue;
+  border: 3px;
+  border-style: groove;
+}
+
+.butRub:focus {
+  background-color: rgb(13, 112, 224);
+  color: aliceblue;
+}
+
+.butEUR:focus {
+  background-color: rgb(13, 112, 224);
+  color: aliceblue;
+}
+
+.butUSD:focus {
+  background-color: rgb(13, 112, 224);
+  color: aliceblue;
+}

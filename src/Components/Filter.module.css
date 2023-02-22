@@ -1,0 +1,9 @@
+.Filter {
+  display: block;
+  margin-right: 10px;
+  width: 30%;
+  height: 18rem;
+  border: 3px;
+  border-style: groove;
+  border-radius: 7px;
+}

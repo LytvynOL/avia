@@ -1,0 +1,14 @@
+.FillterTicket {
+  margin: 0px 15px;
+  padding: 10px;
+  height: 11rem;
+}
+
+input {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+b {
+  font-size: 12px;
+}
