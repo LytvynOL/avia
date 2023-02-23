@@ -7,7 +7,7 @@ const Avias = () => {
   return (
     <div className={style.Avias}>
       {tickets.map((post, index) => (
-        <Avia {...post} />
+        <Avia key={index} {...post} />
       ))}
     </div>
   );

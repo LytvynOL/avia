@@ -3,10 +3,10 @@ import FillterTicket from "./FillterTicket";
 import CurrencyFilter from "./CurrencyFilter";
 import style from "./Filter.module.css";
 
-const Filter = () => {
+const Filter = ({ currency, changeCurrency }) => {
   return (
     <div className={style.Filter}>
-      <CurrencyFilter />
+      <CurrencyFilter currency={currency} changeCurrency={changeCurrency} />
       <FillterTicket />
     </div>
   );
